@@ -16,8 +16,6 @@ public class SortOfSort {
                array[i] = array[i + 1];
                array[i + 1] = temp;
            }
-
-
     }//closes for loop
     }//closes SOS method
 }
