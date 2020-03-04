@@ -3,14 +3,14 @@ import org.junit.jupiter.api.Assertions;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SortOfSortTest {
+public class SortOfSortTest {
     @Test
     public void test1() {
         int[]array1={2,7,1,3,0,9,6,5};//given code in read me
         SortOfSort test = new SortOfSort();
         int[]tester={6,5,1,0,2,3,7,9};
         assertArrayEquals(array1,tester);
-    }//ends test1
+    }//ends test1s
 
     @Test
     public void test2() {
